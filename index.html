@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OahuMPO Data Dashboard</title>
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
+        body {
+          margin: 0;
         }
+
+        .wrapper {
+          position: relative;
+          z-index: 1;
+          display: inline-block;
+          width: 100vw;
+        }
+
+        .hidefooter {
+          position: absolute;
+          width: 150px;
+          height: 35px;
+          background: rgb(242,240,246);
+          right: 0px;
+          bottom: 0px;
+          z-index: 2;
+          display: block;
+          color: rgb(0, 0, 0);
+        }
+
         iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
+          display: block;
+          background: #ffffff;
+          border: none;
+          height: 99vh;
+          width: 99vw;
         }
-    </style>
+        </style>
+
 </head>
 <body>
-    <iframe src="https://oahumpo.streamlit.app/?embed=true"></iframe>
+  <div class="wrapper">
+    <div class="hidefooter"></div>
+    <iframe src="https://oahumpo.streamlit.app/?embed=true">
+        <p>Your browser doesn't support iframes</p>
+    </iframe>
+    </div>
 </body>
 </html>
