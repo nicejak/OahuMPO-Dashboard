@@ -113,6 +113,7 @@ with tab2:
         make_plot(
             path = "./data/land_use_and_transportation/ompo/level_of_travel_time_reliability_lottr_miles_that_are_reliable_lottr__15_on_the_national_highway_system_nhs.csv",
             title = "Level of Travel Time Reliability (LOTTR) miles that are reliable (LOTTR < 1.5) on the National Highway System (NHS)",
+            title_hover = "",
             is_federal_measure = False,
             source = "State of Hawaii Department of Transportation"
         )
