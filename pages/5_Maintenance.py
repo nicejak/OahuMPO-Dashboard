@@ -8,7 +8,8 @@ col1, col2 = st.columns([0.35, 0.65], vertical_alignment = "center")
 col1.image("./images/Maintenance.png")
 col2.markdown("""
     ## 2050 Goal: Maintenance
-    # Maintaining transportation facilities prevents the need for future repairs. To help preserve our network, the Oahu Metropolitan Planning Organization (OahuMPO) will monitor the percentage of roadways, bridges, transit vehicles, and facilities that are in good condition, along with those that are in need of improvements.
+    # Invest in maintenance to preserve transportation facilities
+    Maintaining transportation facilities prevents the need for future repairs. To help preserve our network, the Oahu Metropolitan Planning Organization (OahuMPO) will monitor the percentage of roadways, bridges, transit vehicles, and facilities that are in good condition, along with those that are in need of improvements.
 """)
 
 st.divider()
