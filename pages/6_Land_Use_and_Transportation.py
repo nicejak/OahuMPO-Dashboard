@@ -80,7 +80,7 @@ with tab2:
         )
     with col2:
         make_plot(
-            path = "./data/land_use_and_transportation/ompo/percent_of_population_living_in_transit-oriented_development_zones.csv",
+            path = "./data/land_use_and_transportation/ompo/percent_of_population_working_in_transit-oriented_development_zones.csv",
             title = "Percent of population working in transit-oriented development zones",
             title_hover = "Land use has a tremendous impact on transportation policy, as the location of services impact the location of transportation resources (such as bus routes and roads) that are required to reach them. To ensure coordination between land use and transportation, Oahu Metropolitan Planning Organization (OahuMPO) will monitor the percentage of people working in transit-oriented development zones using Census Population data.",
             is_federal_measure = False,
