@@ -86,8 +86,6 @@ with tab2:
             is_federal_measure = False,
             source = "State of Hawaii GIS Program - Transit Oriented Development Zones and the OahuMPO Traffic Analysis Zones"
         )
-    col1.write("---");
-    col2.write("---");
 
     st.markdown("## Improve transit reliability")
 
@@ -101,9 +99,6 @@ with tab2:
             is_federal_measure = False,
             source = "City and County of Honolulu - Department of Transportation Services"
         )
-
-    col1.write("---");
-    col2.write("---");
 
     st.markdown("## Improve the reliability and efficiency of highway freight networks")
 

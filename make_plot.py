@@ -77,7 +77,7 @@ def make_chart_table(path, is_bar_chart, xlim, ylim):
     with tab_table:
         st.dataframe(df)
 
-def make_plot(path, title, title_hover, is_federal_measure, source, is_bar_chart = False, ymin = None, ymax = None, xmin = None, xmax = None):
+def make_plot(path, title, title_hover = "", is_federal_measure, source, is_bar_chart = False, ymin = None, ymax = None, xmin = None, xmax = None):
     # First, download the data
     df = pd.read_csv(path, na_values = "-")
 
