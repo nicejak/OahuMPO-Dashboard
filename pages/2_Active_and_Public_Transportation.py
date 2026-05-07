@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 st.logo("./images/logo-ompo-02.svg")
 
 col1, col2 = st.columns([0.35, 0.65], vertical_alignment = "center")
-col1.image("./images/Active_and_Public_Transportation_Header.png")
+col1.image("./images/Active_and_Public_Transportation.png")
 col2.markdown("""
     ## 2050 Goal: Active and public transportation
     # Enhance the transportation network to increase active and public transportation

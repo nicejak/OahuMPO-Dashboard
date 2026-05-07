@@ -25,6 +25,10 @@ col2.link_button(":incoming_envelope: Have questions? Let's hear them", "mailto:
 
 st.divider()
 
+st.markdown("""
+    ## Featured measure
+""")
+
 col1, col2 = st.columns(2, vertical_alignment = "center", border = False)
 
 with col1:
@@ -47,3 +51,38 @@ col2.markdown("""
     **Goal: Reduce serious injuries and traffic deaths to zero**
 """)
 col2.link_button("Learn More", "Safety")
+
+st.markdown("""
+    ## 2050 Oahu Regional Transportation Plan Goals
+    The goals of the 2050 ORTP are shown below. Click on each icon for a detailed description and data, or scroll down for an overview of each goal.
+""")
+
+col1, col2 = st.columns(2, vertical_alignment = "center", border = True)
+col11, col12 = col1.columns([0.35, 0.65], vertical_alignment = "center")
+col11.image("./images/Safety.png")
+col12.link_button("Safety", "Safety", width="stretch")
+col21, col22 = col2.columns([0.35, 0.65], vertical_alignment = "center")
+col21.image("./images/Active_and_Public_Transportation.png")
+col22.link_button("Active and Public Transportation", "Active_and_Public_Transportation", width="stretch")
+
+col1, col2 = st.columns(2, vertical_alignment = "center", border = True)
+col11, col12 = col1.columns([0.35, 0.65], vertical_alignment = "center")
+col11.image("./images/Equity.png")
+col12.link_button("Equity", "Equity", width="stretch")
+col21, col22 = col2.columns([0.35, 0.65], vertical_alignment = "center")
+col21.image("./images/Resilience.png")
+col22.link_button("Resilience", "Resilience", width="stretch")
+
+col1, col2 = st.columns(2, vertical_alignment = "center", border = True)
+col11, col12 = col1.columns([0.35, 0.65], vertical_alignment = "center")
+col11.image("./images/Maintenance.png")
+col12.link_button("Maintenance", "Maintenance", width="stretch")
+col21, col22 = col2.columns([0.35, 0.65], vertical_alignment = "center")
+col21.image("./images/Land_Use_and_Transportation.png")
+col22.link_button("Land Use and Transportation", "Land_Use_and_Transportation", width="stretch")
+
+col1, col2 = st.columns(2, vertical_alignment = "center", border = True)
+col11, col12 = col1.columns([0.35, 0.65], vertical_alignment = "center")
+col11.image("./images/Sustainability.png")
+col12.link_button("Sustainability", "Sustainability", width="stretch")
+col2.space("xlarge")
